@@ -10,32 +10,27 @@
     font-family: sans-serif;
     }
 
-    body h1 {
-        text-align: center;}
-
-    a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: #1DB954;
+    img {
+    opacity:0;
+    transition:opacity 1000ms;
 }
-
-    hr.new {
-    border: 1px solid #1DB954;
-    border-radius: 1px;
-    margin: 20px 20px;
-    }
-
+img.waa {
+    opacity:1;
+}
             
 </style>
+
+<script>
+    setTimeout(function(){
+    document.getElementById('aap').className = 'waa';
+}, 5000);
+    </script>
 
 <body>
 
 
-<img src=
-"src/calendar.jpg"
+<img id="aap" src=
+"src/roma.jpg"
 allign="center"
 height="600">
 
